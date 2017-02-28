@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/*! Style.css @softcamp2017.io*/
+html{
+    font-size: 10px;  
+}
+/*body 요소에 배경이미지(leading-21px.png)  tjfwjd */
+body{
+    min-height: 100vh;
+    margin:0;
+    background: url("../images/leading-21px.png");
+    /*본문디자인 상속*/
+    /*font: [두께] [기울기] [응용] [크기/행간] [글꼴];*/
+    font: 400 1.4rem/1.5 "Spoqa Han Sans";
+    /*400은 폰트 두께,1.4rem 은 폰트크기, 1.5는 line-height(행간), 폰트종류*/
+    letter-spacing: -0.002em;
+    color: #333741;
+}
+/* 제목/단락 디자인 */
+h1,h2,h3,h4,h5,h6, p{
+    margin-top: 0;
+    /*margin-bottom: 1.5em;* 폰트크기에 비례한 값인데 여러사이즈 폰트크기를 공통으로 적용하려다보니 rem 사이즈로 변경해서 적용(line-height인 21px값인 계산식 rem사용*/
+    margin-bottom: 2.1rem;
+}
+
+/*제목 공통 디자인*/
+h1,h2,h3,h4 {
+    font-weight: 300;
+    letter-spacing: -0.05em;
+}
+h5,h6{
+    font-weight: normal;
+    line-height: 2.1rem;
+}
+
+/*제목 개별 디자인*/
+h1 {
+    font-size : 5.463rem;
+    line-height: 6.3rem; /*3*2.1rem*/
+}
+/*h2 {}*/
+h3 {
+    font-size : 3.169rem;
+    line-height: 4.2rem;
+    color: #787f94;
+}
+/*h4*/
+h5 {
+    font-size : 1.838rem;
+    line-height: 2.1rem;
+    font-weight: bold;
+    color: #787f94;
+}
+h6 {
+    font-size: 1.563rem;
+    color: #47494e;
+}
+
+/*목록 공통 디자인*/
+ul,ol{
+    /*웹 브라우저 기본 스타일{user agent style} 제거*/
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/*목록 개별 디자인*/
+ul {
+    margin-top: 42px;
+}
+ol {}
+
+/*목록 항목 디자인*/
+li {
+    margin-bottom: 4.2rem;
+}
+
+.container{
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    margin-top: 84px;
+    text-align: center;
+    }
+/*하이퍼링크 디자인*/
+a[href] {
+    color:#3292a7;
+    text-decoration: underline;
+}
+/*상태디자인
+기본상태(normal state)
+마우스가 올라간 상태(Hover state)
+클릭한 상태(Active state)
+클릭한(활성) 상태(Active state)
+포커스 상태(Focus State)
+비활성 상태()
+*/
+/*블록요소내, 이미지 하단 공간 제거*/
+img {
+    vertical-align: bottom;
+}
+main{
+    margin-top: 42px;
+}
+.st2 h5 {
+    color:#2b2c2f
+}
+
+
+
+
+footer{
+    margin-bottom: 84px;
+}
+footer h5{
+    text-align: right;
+    margin-top: 42px;
+}
