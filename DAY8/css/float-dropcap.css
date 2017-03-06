@@ -1,0 +1,17 @@
+.dropcap{
+    width:50%;
+}
+/*.dropcap .dropcap_first-child{
+    float: left;
+    margin-right: 10px;
+    color:red;
+    font-size: 30px;
+    font-weight: 900;
+}*/
+.dropcap::first-letter{
+    float: left;
+    margin-right: 10px;
+    color:blue;
+    font-size: 40px;
+    font-weight: 900;
+}

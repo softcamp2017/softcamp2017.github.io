@@ -1,0 +1,23 @@
+/*y축으로 항상 스크롤을 보겠다는 설정*/
+html{
+    overflow-y; scroll;
+}
+.demo{
+    width: 500px;
+    height: 340px;
+    margin: 20px auto;
+    border: 5px solid #ddd;
+    padding: 1em;
+}
+.o-visible{
+    overflow: visible;
+}
+.o-hidden{
+    overflow: hidden;
+}
+.o-scroll{
+    overflow: scroll;
+}
+.o-auto{
+    overflow: auto;
+}

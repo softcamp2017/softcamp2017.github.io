@@ -1,0 +1,10 @@
+.container{
+    width:800x;
+    margin: 0 auto;
+}
+.article{
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: Helvetica, Arial, Verdana;
+    line-height: 1.5rem;
+}

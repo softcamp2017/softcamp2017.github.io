@@ -1,3 +1,9 @@
+/*:가상클래스 vs ::가상요소(pseudo Element)
+-moz- 모질라의 환경도 고려*/
+p::-moz-selection{
+    background-color: #efd4c6;
+    color: #7b6d66;
+}
 body{
     margin: 0;
 }
@@ -62,4 +68,17 @@ body{
 .ghost-style-link2:hover{
     background-color: #4e82d0;
     color: #fff;
+}
+.album-image {
+    /*width: 100%;
+    height: auto;*/
+    margin:5px;
+    border:8px solid #cccccc;
+    padding: 20px;
+    background-color: #fff;
+    transition: border-color 340ms;
+    }
+.album-image:hover{
+    border-color:#474cc5;
+    }
 }
